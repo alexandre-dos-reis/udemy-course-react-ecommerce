@@ -17,7 +17,7 @@ const config = {
   projectId: "udemy-course-crown-db",
   storageBucket: "udemy-course-crown-db.appspot.com",
   messagingSenderId: "989478773520",
-  appId: "1:989478773520:web:bef944afcfd041d757bb95",
+  appId: "1:989478773520:web:bef944afcfd041d757bb95"
 };
 
 const app = initializeApp(config);
