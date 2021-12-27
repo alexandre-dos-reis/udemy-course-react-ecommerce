@@ -13,6 +13,8 @@ specifiers:
   react-scripts: 5.0.0
   redux: ^4.1.2
   redux-logger: ^3.0.6
+  redux-persist: ^6.0.0
+  reselect: ^4.1.5
   web-vitals: ^0.2.4
   workbox-background-sync: ^5.1.4
   workbox-broadcast-update: ^5.1.4
@@ -39,6 +41,8 @@ dependencies:
   react-router-dom: 6.1.1_react-dom@17.0.2+react@17.0.2
   react-scripts: 5.0.0_node-sass@7.0.0+react@17.0.2
   redux: 4.1.2
+  redux-persist: 6.0.0_redux@4.1.2
+  reselect: 4.1.5
   web-vitals: 0.2.4
   workbox-background-sync: 5.1.4
   workbox-broadcast-update: 5.1.4
@@ -9051,6 +9055,14 @@ packages:
       deep-diff: 0.3.8
     dev: true
 
+  /redux-persist/6.0.0_redux@4.1.2:
+    resolution: {integrity: sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ==}
+    peerDependencies:
+      redux: '>4.0.0'
+    dependencies:
+      redux: 4.1.2
+    dev: false
+
   /redux/4.1.2:
     resolution: {integrity: sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==}
     dependencies:
@@ -9176,6 +9188,10 @@ packages:
 
   /requires-port/1.0.0:
     resolution: {integrity: sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=}
+    dev: false
+
+  /reselect/4.1.5:
+    resolution: {integrity: sha512-uVdlz8J7OO+ASpBYoz1Zypgx0KasCY20H+N8JD13oUMtPvSHQuscrHop4KbXrbsBcdB9Ds7lVK7eRkBIfO43vQ==}
     dev: false
 
   /resolve-cwd/3.0.0:
